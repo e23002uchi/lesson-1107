@@ -6,13 +6,7 @@ const Users = ({ users }) => {
   return (
     <>
       <Hero {...params} />
-      {/* <p>{JSON.stringify(users)}</p> */}
-      {/* <ul>
-        {users.map(user => (
-          <li key={user.id}>{user.name}</li>
-        ))}
-      </ul> */}
-      <p>{ItemList}</p>
+      <ItemList list={users} />
     </>
   )
 }
